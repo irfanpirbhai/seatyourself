@@ -4,6 +4,7 @@ Seatyourself::Application.routes.draw do
 
   resources :users, :only => [:new, :create]
 
+  resources :restaurants, :only => [:index, :show]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

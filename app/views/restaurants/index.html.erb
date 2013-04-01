@@ -1,0 +1,9 @@
+<h1>Show all restaurants</h1>
+
+<% @restaurants.each do |restaurant| %>
+  <h2><%= restaurant.name %></h2>
+  <%= restaurant.address %><br>
+  <%= restaurant.city %>, <%= restaurant.province %>&nbsp &nbsp<%= restaurant.postal_code %><br>
+  <%= restaurant.phone %><br><br>
+  Price: <%= restaurant.price %>
+<% end  %>
