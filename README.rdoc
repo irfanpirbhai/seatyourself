@@ -12,8 +12,7 @@ Search by:
 * Time
 * Party-size
 
-This brings up the results of the first query: 
-* a list of restaurants with tables available during the specified times, and 2 time slots before and after.
+This brings up the results of the first query: a list of restaurants with tables available during the specified times, and 2 time slots before and after.
 
 After this query, the user will be able to filter restaurants by:
 
