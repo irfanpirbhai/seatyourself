@@ -1,5 +1,7 @@
 Seatyourself::Application.routes.draw do
   
+  resources :cuisines, :only => [:index, :show]
+
   resources :sessions, :only => [:new, :create, :destroy] 
 
   resources :users, :only => [:new, :create]
