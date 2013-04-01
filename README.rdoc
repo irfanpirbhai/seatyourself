@@ -7,35 +7,35 @@ SeatYourself is an Open-Table clone. This objective here is to make a basic rese
 Users can use the site in the following ways:
 
 Search by:
-1) Location (Selected locations)
-2) Date
-3) Time
-4) Party-size
+* Location (Selected locations)
+* Date
+* Time
+* Party-size
 
 This brings up the results of the first query: 
-a list of restaurants with tables available during the specified times, and 2 time slots before and after.
+* a list of restaurants with tables available during the specified times, and 2 time slots before and after.
 
 After this query, the user will be able to filter restaurants by:
 
-1) Cuisine
-2) Price
+* Cuisine
+* Price
 
 Also, there will be an option on this page to:
 
-Change location
-Change date
-Change time
-Change party-size
+* Change location
+* Change date
+* Change time
+* Change party-size
 
 ==Reservations:
 
-To complete a reservation, user must be a registered user of the site.
-Profile information (name, phone, email) will pre-populate. User can change these, and submit.
-A confirmation will then be sent to the user.
+* To complete a reservation, user must be a registered user of the site.
+* Profile information (name, phone, email) will pre-populate. User can change these, and submit.
+* A confirmation will then be sent to the user.
 
 ==For next release:
 
-Connect to yelp.com API
-Add accurate hours of availability, for each day
-Ability to search for restaurants by entering address/by proximity
-Expand profiles connected to registered users
+* Connect to yelp.com API
+* Add accurate hours of availability, for each day
+* Ability to search for restaurants by entering address/by proximity
+* Expand profiles connected to registered users
